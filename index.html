@@ -1,0 +1,153 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson 16</title>
+ </head>
+ <body>
+  <div class="wrapper">
+    <header class="header"></header>
+
+    <main class="page">
+      <div class="drop">
+        <div class="drop__container ">
+          <div class="drop__flex content">
+          <div class="content__img">
+              <img src="img/illustration.svg" alt="Vector image">
+            </div>
+            <div class="content__right">
+              <h2 class="subtitle">Any questions?</h2>
+              <h2 class="title">Drop us a line</h2>
+              <div class="content__right-form ">
+                <form class="form" action="#"> 
+                  <div class="form__info-flex">
+                  <div class="form__info">               
+                      <div class="form__info-name ">
+                        <label class="form__label" for="name">First Name*</label>
+                        <input class="form__input" id="name" name="name" placeholder="Your first name" type="text">
+                      </div>
+                      <div class="form__contact-email">
+                        <label class="form__label" for="email">Email*</label>
+                        <input class="form__input" id="email" name="email" placeholder="Your working email"  type="email">
+                      </div>
+                    </div>                    
+                         
+                                        <div class="form__contact">
+                      <div class="form__info-last-name">
+                        <label class="form__label" for="last-name">Last Name*</label>
+                        <input class="form__input" id="last-name" name="last-name" placeholder="Your last name"  type="text">
+                      </div>
+                      <div class="form__contact-tel">
+                        <label class="form__label" for="phone">Phone</label>
+                        <input class="form__input" id="phone" name="phone" placeholder="Your phone number"  type="tel">
+                      </div>
+                                        </div>
+                    </div>
+
+                  <div class="form__text">
+                    <label class="form__label form__label-text" for="textarea">Message*</label>
+                    <textarea class="form__input form__input--text" name="text" id="textarea"  placeholder="Your message"></textarea>
+                  </div>
+
+                  <div class="form__action action">
+                    <div class="action__check">
+                      <input type="checkbox" class="checkbox-input" id="check">
+                      <label for="check" class="check-label">I agree to receive communications from Createx Online School
+                      </label>
+                    </div>
+                    <div class="action__btn">
+                      <button type="button" class="button" >Send message</button>
+                    </div>
+
+                  </div>
+                </form>
+              </div>
+
+            </div>
+
+
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="test">
+        <div class="test__container">
+          <form class="form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+
+
+            <div class="form__line form__line">
+              <label for="name-01">Введите имя</label>
+              <input id="name-01" class="form__input form__input--1" type="text" autocomplete="off" name="name"  placeholder="Введите имя">
+            </div>
+            <div class="form__line">
+              <label for="mail-01">Введите email</label>
+              <input id="mail-01" class="form__input form__input--2" type="email" required tabindex="1"  autocomplete="off"  placeholder="Введите email">
+            </div>
+            <div class="form__line">
+              <label for="phone-01">Введите телефон</label>
+              <input id="phone-01" class="form__input form__input--3" type="tel" autocomplete="off" name="surname" placeholder="Введите телефон">
+            </div>
+            
+            <div class="form__line">
+              <label for="pass">Введите пароль</label>
+              <input id="pass" class="form__input form__input--4" type="password" autocomplete="off" name="surname" placeholder="Введите пароль">
+            </div>
+            
+            <div class="form__line">
+              <label for="date">Дата рождения</label>
+              <input id="date" class="form__input form__input--5" type="date" autocomplete="off" name="surname" placeholder="Дата рождения">
+            </div>
+            
+            <div class="form__check check">
+              <div class="check__form">
+                <input id="car" class="check__box" type="checkbox" autocomplete="off"  >
+                <label class="check__label" for="car">   Есть машина?</label>
+              </div>
+              
+              <div class="check__form">
+                <input id="animal" class="check__box" type="checkbox" autocomplete="off" >
+                <label class="check__label" for="animal">   Есть животные?</label>
+              </div>
+            </div>
+
+            <div class="form__radio radio">
+              <div class="radio__title">Есть животные</div>
+
+              <div class="radio__box">
+                <input class="radio__input" type="radio" name="pet" id="pet-01" autocomplete="off">
+                <label for="pet-01">Есть</label>
+              </div>
+              <div class="radio__box">
+                <input class="radio__input"  type="radio" name="pet" id="pet-02" autocomplete="off">
+                <label for="pet-02">Нет</label>
+              </div>
+            </div>
+
+            <div class="form__file">
+              <input type="file" name="" id="">
+            </div>
+
+
+            <div class="form__textarea">
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+
+            <button class="button" type="submit">Кнопка</button>
+       
+          </form>
+  
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="footer"></footer>
+   </div>
+ </body>
+ </html>
